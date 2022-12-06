@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bayan.css" />
+    <link rel="stylesheet" href="./tarif.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="account">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 account-sidebar">
+              <div class="account-sidebar-top flex align-items-center">
+                <div class="account-img">
+                  <img
+                    src="/uploads/account/6241b9bf092981648474559.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="account-name">
+                  <h4>Kerim Alekberov</h4>
+                  <p>Müştəri kodu: U367868</p>
+                </div>
+              </div>
+
+              <div class="limit-notification mobile-show">
+                <a href="/balance/index?type=shipping&amp;lang=az" title="">
+                  AZN balans: 0.01 AZN
+                </a>
+                <a href="/balance/index?type=order&amp;lang=az" title="">
+                  TL balans: 0 TL
+                </a>
+                <a href="#" title=""> Cari ay üzrə limit: 0$ </a>
+              </div>
+
+              <div class="flex space-between account-btn-group mobile-show">
+                <a
+                  href="/parcel/create?lang=az"
+                  class="btn btn-green order-btn"
+                  title=""
+                  >Bəyan et</a
+                >
+                <a
+                  href="/links/create?lang=az"
+                  class="btn btn-orange order-btn"
+                  title=""
+                  >+ Sifariş et</a
+                >
+              </div>
+
+              <a
+                href="#"
+                title=""
+                class="return-account control-mobile-menu mobile-show"
+                >Keçidlər</a
+              >
+
+              <div class="account-sidebar-nav">
+                <ul class="desktop-show">
+                  <li>
+                    <a
+                      class="nav-address"
+                      href="/account/address?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/address.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Xaricdəki ünvanlarım
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-parcel" href="/parcel/index?lang=az" title="">
+                      <img
+                        src="/img/icon/parcel.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Bağlamalar
+                    </a>
+                  </li>
+                  <li>
+                    <a class="orders" href="/links/index?lang=az" title="">
+                      <img
+                        src="/img/icon/order.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Sifarişlərim
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-balance"
+                      href="/balance/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/balance.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Balans
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-balance notify-color"
+                      href="/account/debt?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/debt.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Borclar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/branch/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/branch.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Filiallar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/ticket/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/muracietler.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Müraciətlər
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/courier/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/courier.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Kuryer sifarişləri
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/promocode/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/promocode.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Promokodlar
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/attorney/index?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/attorney.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Etibarnamələr
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-referal"
+                      href="/family/accounts?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/family.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Ailə hesabı
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-account-setting"
+                      href="/account/setting?lang=az"
+                      title=""
+                    >
+                      <img
+                        src="/img/icon/setting.svg"
+                        class="sidebar-icon"
+                        alt=""
+                      />
+                      Tənzimləmələr
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-9 account-main">
+              <div class="account-showcase row desktop-show">
+                <div class="col-md-4">
+                  <a href="#" class="account-showcase-shopping" title="">
+                    Cari ay üzrə limit
+                    <span class="account-showcase-count">0 $</span>
+                  </a>
+                </div>
+                <div class="col-md-4">
+                  <a
+                    href="/balance/index?type=shipping&amp;lang=az"
+                    class="account-showcase-balance"
+                    title=""
+                  >
+                    Daşınma Balansım
+                    <span class="account-showcase-count">0.01 AZN</span>
+                  </a>
+                </div>
+
+                <div class="col-md-4">
+                  <a
+                    href="/balance/index?type=order&amp;lang=az"
+                    class="account-showcase-parcel"
+                    title=""
+                  >
+                    Sifariş Balansım
+                    <span class="account-showcase-count">0.00 TRY</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="account-jumb">
+                <div class="declaration">
+                  <div class="alert alert-danger hide-el has-error">.</div>
+
+                  <form
+                    id="declaration-form"
+                    action="/parcel/create?lang=az"
+                    method="post"
+                  >
+                    <input
+                      type="hidden"
+                      name="_csrf-frontend"
+                      value="5370GyyYYCQW6I29Z9B7lBj5nr7CYzL9ejnY9Y_e7LGmFqQ2dccpfmON28dSpTX8fLLNxvYxYKoWS4e_7J-8-A=="
+                    />
+                    <div
+                      class="declaration-top flex space-between align-items-center"
+                    >
+                      <h4 class="declaration-title">Bəyannamə əlavə et</h4>
+                      <a
+                        href="#"
+                        class="tutorial-btn js-video-button float-right"
+                        style="float: right"
+                        data-video-id=""
+                        title=""
+                        >Video təlimat</a
+                      >
+                    </div>
+
+                    <ul
+                      class="country-tab-nav nav nav-tabs declaration-country"
+                    >
+                      <li class="nav-item">
+                        <a
+                          data-toggle="tab"
+                          data-id="2"
+                          href="#content-2"
+                          class="nav-link active"
+                          title=""
+                        >
+                          <img
+                            class="address-country-icon country-2"
+                            src="/frontend/web/uploads//images/country/turkey.svg"
+                            alt=""
+                          />
+                          <span>Türkiyə</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="declaration-form">
+                      <div class="row declaration-top">
+                        <div class="col-md-6">
+                          <div
+                            class="form-group field-parcel-tracking_id required"
+                          >
+                            <label
+                              class="control-label"
+                              for="parcel-tracking_id"
+                              >Tracking ID</label
+                            >
+                            <input
+                              type="text"
+                              id="parcel-tracking_id"
+                              class="form-control"
+                              name="Parcel[tracking_id]"
+                              aria-required="true"
+                            />
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div
+                            class="form-group field-parcel-store_name required"
+                          >
+                            <label class="control-label" for="parcel-store_name"
+                              >Mağazanın adı</label
+                            >
+                            <input
+                              type="text"
+                              id="parcel-store_name"
+                              class="form-control"
+                              name="Parcel[store_name]"
+                              aria-required="true"
+                            />
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        id="fine-uploader-gallery"
+                        data-redirect="/parcel/index?lang=az"
+                        data-file-uploaded="0"
+                      >
+                        <div
+                          class="qq-uploader-selector qq-uploader qq-gallery drag-drop"
+                          qq-drop-area-text=""
+                        >
+                          <div
+                            class="qq-total-progress-bar-container-selector qq-total-progress-bar-container qq-hide"
+                          >
+                            <div
+                              role="progressbar"
+                              aria-valuenow="0"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              class="qq-total-progress-bar-selector qq-progress-bar qq-total-progress-bar"
+                            ></div>
+                          </div>
+                          <div
+                            class="qq-upload-drop-area-selector qq-upload-drop-area"
+                            qq-hide-dropzone=""
+                            style="display: none"
+                          ></div>
+                          <p>Faylları sürüşdürərək çərçivənin içina atın</p>
+                          <div
+                            class="qq-upload-button-selector qq-upload-button"
+                            style="
+                              position: relative;
+                              overflow: hidden;
+                              direction: ltr;
+                            "
+                          >
+                            <div class="add-invoice-file">Invoice əlavə et</div>
+                            <input
+                              qq-button-id="149a936f-4691-4c9e-acdb-5e19ec51429c"
+                              title="file input"
+                              multiple=""
+                              type="file"
+                              name="qqfile"
+                              style="
+                                position: absolute;
+                                right: 0px;
+                                top: 0px;
+                                font-family: Arial;
+                                font-size: 118px;
+                                margin: 0px;
+                                padding: 0px;
+                                cursor: pointer;
+                                opacity: 0;
+                                height: 100%;
+                              "
+                            />
+                          </div>
+                          <div class="declaration-file-text">
+                            <p>
+                              Maksimum 3 fayl (.pdf .docx .jpg .png) yükləmək
+                              imkanınız var
+                            </p>
+                          </div>
+                          <span
+                            class="qq-drop-processing-selector qq-drop-processing qq-hide"
+                          >
+                            <span>Processing dropped files...</span>
+                            <span
+                              class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"
+                            ></span>
+                          </span>
+                          <ul
+                            class="qq-upload-list-selector qq-upload-list img-list"
+                            role="region"
+                            aria-live="polite"
+                            aria-relevant="additions removals"
+                          ></ul>
+
+                          <dialog class="qq-alert-dialog-selector">
+                            <div class="qq-dialog-message-selector"></div>
+                            <div class="qq-dialog-buttons">
+                              <button
+                                type="button"
+                                class="qq-cancel-button-selector"
+                              >
+                                Bağla
+                              </button>
+                            </div>
+                          </dialog>
+
+                          <dialog class="qq-confirm-dialog-selector">
+                            <div class="qq-dialog-message-selector"></div>
+                            <div class="qq-dialog-buttons">
+                              <button
+                                type="button"
+                                class="qq-cancel-button-selector"
+                              >
+                                No
+                              </button>
+                              <button
+                                type="button"
+                                class="qq-ok-button-selector"
+                              >
+                                Yes
+                              </button>
+                            </div>
+                          </dialog>
+
+                          <dialog class="qq-prompt-dialog-selector">
+                            <div class="qq-dialog-message-selector"></div>
+                            <input type="text" />
+                            <div class="qq-dialog-buttons">
+                              <button
+                                type="button"
+                                class="qq-cancel-button-selector"
+                              >
+                                Cancel
+                              </button>
+                              <button
+                                type="button"
+                                class="qq-ok-button-selector"
+                              >
+                                Ok
+                              </button>
+                            </div>
+                          </dialog>
+                        </div>
+                      </div>
+
+                      <div class="row d-none store-typed-name">
+                        <div class="col-md-12">
+                          <div class="form-group field-parcel-store_typed_name">
+                            <label
+                              class="control-label"
+                              for="parcel-store_typed_name"
+                              >Mağazanın/saytın adı</label
+                            >
+                            <input
+                              type="text"
+                              id="parcel-store_typed_name"
+                              class="form-control"
+                              name="Parcel[store_typed_name]"
+                            />
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div
+                          class="col-md-4 single_search_field search_category country-select"
+                        >
+                          <div
+                            class="form-group field-parcel-category_id required"
+                          >
+                            <label
+                              class="control-label"
+                              for="parcel-category_id"
+                              >Kateqoriya</label
+                            >
+                            <input
+                              type="hidden"
+                              name="Parcel[category_id]"
+                              value=""
+                            /><select
+                              id="parcel-category_id"
+                              class="search_fields select2-hidden-accessible"
+                              name="Parcel[category_id][]"
+                              multiple=""
+                              size="4"
+                              data-placeholder="Kateqoriya seçin"
+                              aria-required="true"
+                              data-select2-id="parcel-category_id"
+                              tabindex="-1"
+                              aria-hidden="true"
+                            >
+                              <option value="">Product category</option>
+                              <option value="1">Paltar, geyim</option>
+                              <option value="2">Palto</option>
+                              <option value="3">Yarımpalto</option>
+                              <option value="4">Bürüncək</option>
+                              <option value="5">Plaş</option>
+                              <option value="6">Gödəkçə</option>
+                              <option value="7">Küləkçə</option>
+                              <option value="8">Fırtınalıq</option>
+                              <option value="9">Kostyum</option>
+                              <option value="10">Şalvar</option>
+                              <option value="11">Kombinezon</option>
+                              <option value="12">Brici</option>
+                              <option value="13">Şort</option>
+                              <option value="14">Jaket</option>
+                              <option value="15">Pencək</option>
+                              <option value="16">Blazer</option>
+                              <option value="17">Köynək</option>
+                              <option value="18">Bluz</option>
+                              <option value="19">Mayka</option>
+                              <option value="20">Alt fufayka</option>
+                              <option value="21">Kalson</option>
+                              <option value="22">Tuman</option>
+                              <option value="23">Gecə köynəyi</option>
+                              <option value="24">Pijama</option>
+                              <option value="25">Hamam xələti</option>
+                              <option value="27">Çimərlik kostyumları</option>
+                              <option value="28">Xizək kostyumları</option>
+                              <option value="29">
+                                İstehsalat və peşə geyimi
+                              </option>
+                              <option value="30">Büstqalter</option>
+                              <option value="31">Korset</option>
+                              <option value="32">Çiyinbağı</option>
+                              <option value="33">Yaylıq</option>
+                              <option value="34">Şərf</option>
+                              <option value="35">Qalstuk</option>
+                              <option value="36">Əlcək və yarıməlcək</option>
+                              <option value="37">İdman kostyumları</option>
+                              <option value="38">Önlük</option>
+                              <option value="39">Ayaqqabı</option>
+                              <option value="40">Xizək üçün çəkmə</option>
+                              <option value="41">Snoubord üçün çəkmə</option>
+                              <option value="42">Klassik</option>
+                              <option value="43">Derbi</option>
+                              <option value="44">Lofer</option>
+                              <option value="45">Oksford</option>
+                              <option value="46">Yarımboğaz ayaqqabı</option>
+                              <option value="47">Krassovka</option>
+                              <option value="48">Mokasin</option>
+                              <option value="49">Espadril</option>
+                              <option value="50">Səndəl</option>
+                              <option value="51">Ev tərliyi</option>
+                              <option value="52">Ayaqqabı qadın üçün</option>
+                              <option value="53">Xizək üçün çəkmə</option>
+                              <option value="54">Snoubord üçün çəkmə</option>
+                              <option value="55">Derbi</option>
+                              <option value="56">Slip-on</option>
+                              <option value="57">Lofer</option>
+                              <option value="58">Uzunboğaz çəkmə</option>
+                              <option value="59">Yarımboğaz çəkmə</option>
+                              <option value="60">Hündurdaban</option>
+                              <option value="61">Espadril</option>
+                              <option value="62">Baletka</option>
+                              <option value="63">Səndəl</option>
+                              <option value="64">Krassovka</option>
+                              <option value="65">Ev tərliyi</option>
+                              <option value="66">Geyim aksesuarları</option>
+                              <option value="67">Qayış</option>
+                              <option value="68">Şərf</option>
+                              <option value="69">Əlcək</option>
+                              <option value="70">Bijuteriya</option>
+                              <option value="71">Portmone</option>
+                              <option value="72">Papaq</option>
+                              <option value="73">Qalstuk</option>
+                              <option value="74">Çanta</option>
+                              <option value="75">Eynək</option>
+                              <option value="76">Çətir</option>
+                              <option value="77">Saat</option>
+                              <option value="78">
+                                Geyim aksesuarları qadın üçün
+                              </option>
+                              <option value="79">Makiyaj çantaları</option>
+                              <option value="80">Qayış</option>
+                              <option value="81">Əlcək</option>
+                              <option value="82">Çətir</option>
+                              <option value="83">Portmone</option>
+                              <option value="84">Eynək</option>
+                              <option value="85">Şərf</option>
+                              <option value="86">Papaq</option>
+                              <option value="87">Bijuteriya</option>
+                              <option value="88">Çanta</option>
+                              <option value="89">Saat</option>
+                              <option value="90">Çətir</option>
+                              <option value="91">Saç aksesuarları</option>
+                              <option value="92">Kompüter, Elektronika</option>
+                              <option value="93">Noutbuk</option>
+                              <option value="94">Netbuk</option>
+                              <option value="95">Masaüstü komputer</option>
+                              <option value="96">Monoblok</option>
+                              <option value="97">Oyun kompüteri</option>
+                              <option value="98">Monitor</option>
+                              <option value="99">Printer</option>
+                              <option value="100">
+                                Xarici toplayıcı disklər HDD
+                              </option>
+                              <option value="101">Kartric</option>
+                              <option value="102">Proyektor</option>
+                              <option value="103">Siçan</option>
+                              <option value="104">
+                                Prezentasiya üçün pult
+                              </option>
+                              <option value="105">Noutbuk üçün çanta</option>
+                              <option value="106">Noutbuk üçün altlıq</option>
+                              <option value="107">Fleş toplayıcı</option>
+                              <option value="108">Modem</option>
+                              <option value="109">
+                                Xarici toplayıcı disklər SSD
+                              </option>
+                              <option value="110">Oyun konsolları</option>
+                              <option value="111">Playstation</option>
+                              <option value="112">Xbox</option>
+                              <option value="113">DVD</option>
+                              <option value="114">DVD və CD disklər</option>
+                              <option value="115">Nintendo</option>
+                              <option value="116">Kosmetik vasitələr</option>
+                              <option value="117">Kirşan</option>
+                              <option value="118">Tonal krem</option>
+                              <option value="119">Konsiler</option>
+                              <option value="120">Ənlik</option>
+                              <option value="121">Tuş</option>
+                              <option value="122">Göz kölgəsi</option>
+                              <option value="123">Göz qələmi</option>
+                              <option value="124">Dodaq boyası</option>
+                              <option value="125">Bronzer</option>
+                              <option value="126">Korrektor</option>
+                              <option value="127">Layner</option>
+                              <option value="128">Praymer</option>
+                              <option value="129">Haylayter</option>
+                              <option value="130">Qaş qələmi</option>
+                              <option value="131">Qaş kirşanı</option>
+                              <option value="132">Dırnaq lakı</option>
+                              <option value="133">
+                                Telefon və telefon üçün aksesuarlar
+                              </option>
+                              <option value="134">Mobil telefon</option>
+                              <option value="135">Ev və ofis telefonu</option>
+                              <option value="136">Smart saatlar</option>
+                              <option value="137">
+                                Telefon(telefon üçün aksesuarlar)
+                              </option>
+                              <option value="138">Qulaqlıqlar</option>
+                              <option value="139">Ekran qoruyucuları</option>
+                              <option value="140">Keyslər</option>
+                              <option value="141">Portativ akkumlyator</option>
+                              <option value="142">Adapter</option>
+                              <option value="143">Yaddaş qurğuları</option>
+                              <option value="144">USB və AUX kabelləri</option>
+                              <option value="145">Selfi çubuqları</option>
+                              <option value="146">
+                                Məişət avadanlıqları(Böyük məişət texnikası)
+                              </option>
+                              <option value="147">Soyuducu</option>
+                              <option value="148">Dondurucu kamera</option>
+                              <option value="149">Paltaryuyan maşın</option>
+                              <option value="150">Quruducu maşın</option>
+                              <option value="151">Buxar dolabı</option>
+                              <option value="152">Qabyuyan maşın</option>
+                              <option value="153">Televizor</option>
+                              <option value="154">Kondisioner</option>
+                              <option value="155">Aspirator</option>
+                              <option value="156">Bişirmə paneli</option>
+                              <option value="157">Soba</option>
+                              <option value="158">Plitə</option>
+                              <option value="159">
+                                Məişət avadanlıqları(Kiçik məişət texnikası)
+                              </option>
+                              <option value="160">Blender</option>
+                              <option value="161">Mətbəx tərəzisi</option>
+                              <option value="162">Mətbəx kombaynı</option>
+                              <option value="163">Mikser</option>
+                              <option value="164">Ətçəkən maşın</option>
+                              <option value="165">Multibişiricilər</option>
+                              <option value="166">Mikrodalğalı soba</option>
+                              <option value="167">Çörək bişrən</option>
+                              <option value="168">Elektrik sobası</option>
+                              <option value="169">Toster</option>
+                              <option value="170">Buxarlı bişirici</option>
+                              <option value="171">Fen</option>
+                              <option value="172">Fritoz</option>
+                              <option value="173">Elektrik çaydan</option>
+                              <option value="174">Qəhvə dəmləyən</option>
+                              <option value="175">Qəhvə üyüdən</option>
+                              <option value="176">Şirəçəkən</option>
+                              <option value="177">Ütü</option>
+                              <option value="178">Tozsoran</option>
+                              <option value="179">Buxarlı təmizləyici</option>
+                              <option value="180">
+                                Maşın ehtiyat hissələri
+                              </option>
+                              <option value="181">Mühərrik hissələri</option>
+                              <option value="182">Kuzov(əsas) hissələri</option>
+                              <option value="183">Fara</option>
+                              <option value="184">Ampül</option>
+                              <option value="185">
+                                Gücləndirici çeviricilər
+                              </option>
+                              <option value="186">Əsas kordonlar</option>
+                              <option value="187">Məftillər</option>
+                              <option value="188">Bağlayıcılar</option>
+                              <option value="189">Quraşdırma avadanlığı</option>
+                              <option value="190">
+                                Rezindən avtomobil döşəkçələri
+                              </option>
+                              <option value="191">
+                                Süni toxuculuq materiallarından hazırlanmış
+                                avtomobil döşəkçələri
+                              </option>
+                              <option value="192">Güzgülər</option>
+                              <option value="193">Nasoslar və Filtrlər</option>
+                              <option value="194">Hava filtrləri</option>
+                              <option value="195">
+                                Yağ və benzin filtrləri
+                              </option>
+                              <option value="196">Qida əlavələri,Dərman</option>
+                              <option value="197">Zülal tozu</option>
+                              <option value="198">İçkilər</option>
+                              <option value="199">Içki tozları</option>
+                              <option value="200">
+                                Tərkibində kakao olan məhsullar
+                              </option>
+                              <option value="201">Zərdab</option>
+                              <option value="202">
+                                Ev aksesuarları(mebel,dekor və digər)
+                              </option>
+                              <option value="203">Güzgü</option>
+                              <option value="204">Yataq mebeli</option>
+                              <option value="205">Qonaq mebeli</option>
+                              <option value="206">Mətbəx mebeli</option>
+                              <option value="207">Hamam akseusarları</option>
+                              <option value="208">Divar kağızı</option>
+                              <option value="209">Saatlar</option>
+                              <option value="210">Divar üçün tablo</option>
+                              <option value="211">
+                                Plastik mətbəx əşyaları
+                              </option>
+                              <option value="212">
+                                Metaldan mətbəx əşyaları
+                              </option>
+                              <option value="213">
+                                Şüşədən mətbəx əşyaları
+                              </option>
+                              <option value="214">İdman alətləri</option>
+                              <option value="215">Trenajor alətlər</option>
+                              <option value="216">
+                                Toplar (futbol,voleybol, tennis,qolf və s. üçün)
+                              </option>
+                              <option value="217">Çantalar</option>
+                              <option value="218">
+                                İdmanda istifadə olunan yastıqcıqlar (dirsək,
+                                diz, sinə, qollar, ayaqlar üçün və s.)
+                              </option>
+                              <option value="219">
+                                Baş-üz üçün qoruyucular (kaska, dəbilqə, başlıq
+                                və s.)
+                              </option>
+                              <option value="220">Əlcəklər</option>
+                              <option value="221">
+                                Qoruyucu sarğılar (əl,ayaq,bilək, qol, diz və s)
+                              </option>
+                              <option value="222">
+                                Çubuqlar (qolf, xokkey və s.)
+                              </option>
+                              <option value="223">
+                                Raketka (tennis,badminton və s.)
+                              </option>
+                              <option value="224">
+                                İdman üçün silahlar (paint ball, atıcılıq və s )
+                              </option>
+                              <option value="225">
+                                İdman silahları üçün toplar-güllələr (paint
+                                ball, atıcılıq və s )
+                              </option>
+                              <option value="226">
+                                Seqveylər və elektrik skuterlər
+                              </option>
+                              <option value="227">
+                                Diyircəkli konki, xizək,skateboard,snowboard və
+                                s
+                              </option>
+                              <option value="228">
+                                Oxçuluq üçün ləvazimatlar
+                              </option>
+                              <option value="229">Gimnastika alətləri</option>
+                              <option value="230">Kamera və hissələri</option>
+                              <option value="231">
+                                Avtomobillər üçün kamera dəstləri (kamera,
+                                monitor)
+                              </option>
+                              <option value="232">Video registratorlar</option>
+                              <option value="233">Video kameralar</option>
+                              <option value="234">
+                                Video nəzarət kameraları
+                              </option>
+                              <option value="235">DVR</option>
+                              <option value="236">
+                                Rəqəmsal kameralar (foto aparatlar)
+                              </option>
+                              <option value="237">Veb kameralar</option>
+                              <option value="238">Obyektiv linzalar</option>
+                              <option value="239">
+                                Selfie çubuqları, monopodlar, bipodlar,
+                                tripodlar
+                              </option>
+                              <option value="430">
+                                Kameralar üçün yaddaş kartları və flash kartlar
+                              </option>
+                              <option value="431">Kitablar</option>
+                              <option value="432">Kitab</option>
+                              <option value="433">Jurnal</option>
+                              <option value="434">Elektron kitab</option>
+                              <option value="435">Audio kitab</option>
+                              <option value="436">Film və musiqi diski</option>
+                              <option value="437">Səsyazıları toplusu</option>
+                              <option value="438">
+                                Elektron kitab oxuyucu
+                              </option>
+                              <option value="439">
+                                Telefon ehtiyat hissələri
+                              </option>
+                              <option value="440">Dərman</option>
+                              <option value="441">
+                                Kimyəvi təmizləyici vasitələr
+                              </option>
+                              <option value="442">Qabyuma vasitələri</option>
+                              <option value="443">Paltaryuma vasitələri</option>
+                              <option value="444">
+                                Avtomobil təmizləmə vasitələri
+                              </option>
+                              <option value="445">
+                                Mebel təmizləmə vasitələri
+                              </option>
+                              <option value="446">Digər vasitələr</option>
+                              <option value="447">Suvinir və oyuncaqlar</option>
+                              <option value="448">Suvinirlər</option>
+                              <option value="449">Oyuncaqlar</option>
+                              <option value="450">
+                                Təmir-tikinti alətləri
+                              </option>
+                              <option value="451">
+                                Əl alətləri, alət dəstləri
+                              </option>
+                              <option value="452">
+                                Elektrikli əl alətləri
+                              </option>
+                              <option value="453">Digər</option>
+                              <option value="454">Ovçuluq ləvazimatları</option>
+                              <option value="455">Balıqtutma vasitələri</option>
+                              <option value="456">Digər</option>
+                              <option value="457">Digər</option>
+                              <option value="458">Digər</option>
+                              <option value="459">Digər</option>
+                              <option value="460">Digər</option>
+                              <option value="461">Digər</option>
+                              <option value="462">Digər</option>
+                              <option value="463">Digər</option>
+                              <option value="464">Digər</option>
+                              <option value="465">Digər</option>
+                              <option value="466">Digər</option>
+                              <option value="468">Digər</option>
+                              <option value="469">Digər</option>
+                              <option value="470">Digər</option>
+                              <option value="471">Digər</option>
+                              <option value="472">Digər</option>
+                              <option value="473">Digər</option>
+                              <option value="474">Digər</option>
+                              <option value="475">Digər</option>
+                              <option value="476">Digər</option>
+                              <option value="477">Digər</option>
+                              <option value="478">Digər</option>
+                              <option value="479">Klaviatura</option>
+                              <option value="480">Ana kart</option>
+                              <option value="481">
+                                Kompüterlərin digər hissələri və aksesuarları
+                                (kordonlar və ya məftillər deyil)
+                              </option>
+                              <option value="482">Oyun kontolerləri</option>
+                              <option value="486">
+                                Üz üçün tozlar (Kirşan, Tonal krem və s.)
+                              </option>
+                              <option value="487">
+                                Tuş, göz kölgələri, göz layneri, göz qaş
+                                məhsulları
+                              </option>
+                              <option value="488">
+                                Dodaq boyası( Pomada), dodaq parıldadıcısı və
+                                digər dodaq makiyajı
+                              </option>
+                              <option value="489">
+                                Dırnaq lakı, manikür və pedikür hazırlıqları
+                                (məsələn, süni dırnaqlar) və kutikül məhsulları
+                              </option>
+                              <option value="490">
+                                Ətirlər, tualet suyu - məhsullar
+                              </option>
+                              <option value="491">
+                                Nəmləndiricilər və digər dəri məhsulları,
+                                günəşdən qoruyucu və özünə qaralma preparatları
+                              </option>
+                              <option value="492">
+                                Dezodorantlar və antiperspirantlar
+                              </option>
+                              <option value="493">
+                                Vanna yağları, hamam duzları və digər hamam
+                                hazırlıqları
+                              </option>
+                              <option value="494"></option>
+                              <option value="495">Diş ipi</option>
+                              <option value="496">Diş fırçaları</option>
+                              <option value="497">
+                                Diş pastası və ağız yuyucusu
+                              </option>
+                              <option value="498">
+                                Diş ağartma məhsulları
+                              </option>
+                              <option value="499">
+                                Saç üslubu məhsulları, saç boyası və digər saç
+                                məhsulları
+                              </option>
+                              <option value="500">
+                                Şampunlar, kondisionerlər və saç yağları
+                              </option>
+                              <option value="501">
+                                Peruklar və insan saçlarından hazırlanmış digər
+                                saç düzəltmələri
+                              </option>
+                              <option value="502">
+                                Fırçalar, saç fırçaları və təraş fırçaları
+                              </option>
+                              <option value="503">
+                                Üzqırxanlar, saç kəsmə maşınları və epilyasiya
+                                cihazları (elektrikli)
+                              </option>
+                              <option value="504">Çay</option>
+                              <option value="505">Qəhvə</option>
+                              <option value="507">Soket dəstləri</option>
+                              <option value="508">Çadırlar</option>
+                              <option value="509">Yuxu çantaları</option>
+                              <option value="510">
+                                Ov tüfənglərinin və tüfənglərin hissələri
+                              </option>
+                              <option value="511">Ampullər, lampalar</option>
+                              <option value="512">
+                                Tavan, divar, standart və masa lampaları
+                              </option>
+                              <option value="513">
+                                LED lampalar (parıltı lampalarını əvəz edir) və
+                                LED lampalar
+                              </option>
+                              <option value="514">
+                                Nəqliyyat vasitələri üçün lampalar (parıltı
+                                filamenti)
+                              </option>
+                              <option value="515">
+                                Nəqliyyat vasitələri üçün lampalar (Volfram
+                                halogen) H1, H4, H7
+                              </option>
+                              <option value="516">
+                                Nəqliyyat vasitələri üçün lampalar (xenon)
+                              </option>
+                              <option value="517">
+                                Ofis ləvazimatları və kağız məhsulları
+                              </option>
+                              <option value="518">
+                                Kartpostallar çap edilmişdir
+                              </option>
+                              <option value="519">Təqvimlər</option>
+                              <option value="520">
+                                Qələm, marker, karandaş və rəsm boyaları
+                              </option>
+                              <option value="521">Qayçı</option>
+                              <option value="524">Heyvan təchizatı</option>
+                              <option value="525">
+                                Heyvan ləvazimatları (qurğuşun və qoşqu, it
+                                paltoları, cilovlar, at xalçaları, yəhərlər və
+                                yəhər parçalar və digər at ləvazimatları)
+                              </option>
+                              <option value="526">
+                                İtlər üçün naviqasiya yaxası
+                              </option>
+                              <option value="527">
+                                Heyvan oyuncaqları, rezin
+                              </option>
+                              <option value="528">
+                                Simli və ipli heyvan oyuncaqları və pişik
+                                ağacları
+                              </option>
+                              <option value="529">
+                                Süfrə və mətbəx əşyaları
+                              </option>
+                              <option value="530">
+                                Plastik süfrə və mətbəx əşyaları da birdəfəlik
+                              </option>
+                              <option value="531">
+                                Taxta süfrə və ya mətbəx əşyaları
+                              </option>
+                              <option value="532">
+                                Adi dulusçuluq qabları və mətbəx əşyaları
+                              </option>
+                              <option value="533">
+                                Seramik süfrə və ya mətbəx ləvazimatları
+                              </option>
+                              <option value="534">
+                                Porselen və ya çini süfrə və ya ev əşyaları
+                              </option>
+                              <option value="535">
+                                Masa və ya mətbəx üçün istifadə olunan şüşə
+                                qablar
+                              </option>
+                              <option value="536">
+                                Masa örtükləri və peçetələr
+                              </option>
+                              <option value="537">
+                                Mətbəx bıçaqları, masa bıçaqları
+                              </option>
+                              <option value="538">Qazan, tava</option>
+                              <option value="539">Vitamin</option>
+                              <option value="540">Kolye</option>
+                              <option value="541">battaniye</option>
+                              <option value="542">abiye</option>
+                              <option value="543">baharatlik</option>
+                              <option value="544">aski</option>
+                              <option value="545">Atki-bere, takim</option>
+                              <option value="546">babet</option>
+                              <option value="547">
+                                çatal,kaşık bıçak seti
+                              </option>
+                              <option value="548">Duvar saati</option>
+                              <option value="549">Nemlendirme,bakım</option>
+                              <option value="550">Bebek tayt</option>
+                              <option value="551">Bebek bakımı</option>
+                              <option value="552">Bebek elbise</option>
+                              <option value="553">Body, zıbın</option>
+                              <option value="554">Bakım seti</option>
+                              <option value="555">Broş</option>
+                              <option value="556">Bardak</option>
+                              <option value="557">Bardak altlığı</option>
+                              <option value="558">Eşofman takımı</option>
+                              <option value="559">Pantolon</option>
+                              <option value="560">Atlet</option>
+                              <option value="561">Eşofman altı</option>
+                              <option value="562">Fondöten</option>
+                              <option value="563">RUJ</option>
+                              <option value="564">Maskara</option>
+                              <option value="565">Havlu</option>
+                              <option value="566">Elbise</option>
+                              <option value="567">Çorap</option>
+                              <option value="568">Bebek Takımı</option>
+                              <option value="569">Gömlek</option>
+                              <option value="570">Tayt</option>
+                              <option value="571">Yelek</option>
+                              <option value="572">Cüzdan</option>
+                              <option value="573">Masa örtüsü</option>
+                              <option value="574">Kemer</option>
+                              <option value="575">Avize</option>
+                              <option value="576">Gözlük</option>
+                              <option value="577">Etek</option>
+                              <option value="578">
+                                Dəftərxana ləvazimatları
+                              </option>
+                              <option value="579">Kulaklık</option>
+                              <option value="580">Telefon kılıfı</option>
+                              <option value="581">Yastık kılıfı</option>
+                              <option value="582">Oyuncak</option>
+                              <option value="583">Mutfak aletleri</option>
+                              <option value="584">Ev aletleri</option>
+                              <option value="585">Allık</option>
+                              <option value="586">Atkı</option>
+                              <option value="587">Nevresim</option>
+                              <option value="588">Nevresim takımı</option>
+                              <option value="589">Korse</option>
+                              <option value="590">Fular</option>
+                              <option value="591">Omuz çantası</option>
+                              <option value="592">Valiz&amp;Bavul</option>
+                              <option value="593">Kimono&amp;Kaftan</option>
+                              <option value="594">Gümüş yüzük</option>
+                              <option value="595">Gümüş kolye</option>
+                              <option value="596">Çizme</option>
+                              <option value="597">Taç&amp;Saç bandı</option>
+                              <option value="598">Bikini altı</option>
+                              <option value="599">Atkı</option>
+                              <option value="600">Bel çantası</option>
+                              <option value="601">Boxer</option>
+                              <option value="602">Külot</option>
+                              <option value="603">Laptop çantası</option>
+                              <option value="604">Takım Elbise</option>
+                              <option value="605">Sütyen</option>
+                              <option value="606">Sütyen</option>
+                              <option value="607">Mendil</option>
+                              <option value="608">Deniz şortu</option>
+                              <option value="609">Şal</option>
+                              <option value="610">Trençkot</option>
+                              <option value="611">Sweatshirt</option>
+                              <option value="612">lens</option>
+                              <option value="613">Kalemlik</option>
+                              <option value="614">iç geyim</option>
+                              <option value="615">üz maskası</option>
+                              <option value="616">
+                                Halı&amp;Kilim&amp;Paspas
+                              </option>
+                              <option value="617">Organizer</option>
+                              <option value="618">T-shirt</option>
+                              <option value="619">Bebek tulum</option>
+                              <option value="620">Terlik</option>
+                              <option value="621">ikili takım</option>
+                              <option value="622">salıncaq/hamak</option>
+                              <option value="623">
+                                Saklama Kutusu Sepet Hurç
+                              </option>
+                              <option value="624">Hırka</option>
+                              <option value="625">Tulum</option>
+                              <option value="626">Body</option>
+                              <option value="627">Mont</option>
+                              <option value="628">Bornoz</option>
+                              <option value="629">Şapka</option>
+                              <option value="630">
+                                Kozmetik \ Dermokozmatik
+                              </option>
+                              <option value="631">Makyaj Fırça seti</option>
+                              <option value="632">Mont</option>
+                              <option value="633">Bikini takimi</option>
+                              <option value="634">T-shirt</option>
+                              <option value="635">polo t-shirt</option>
+                              <option value="636">Pantolon</option>
+                              <option value="637">Bebek Takımları</option>
+                              <option value="638">Sneaker</option>
+                              <option value="639">Sandalet</option>
+                              <option value="640">Tabak</option>
+                              <option value="641">Servis sunumlari</option>
+                              <option value="642">mayo</option>
+                              <option value="643">GECELIK</option>
+                              <option value="644">bakim yagi</option>
+                              <option value="645">tunik</option>
+                              <option value="646">takim elbise</option>
+                              <option value="647">Caydanlik</option>
+                              <option value="648">alez</option>
+                              <option value="649">Yastık Alezi</option>
+                              <option value="650">yuz jeli</option>
+                              <option value="651">makyaj urunleri</option>
+                              <option value="652">Aydinlatici</option>
+                              <option value="653">Pudra</option>
+                              <option value="654">Kazak</option>
+                              <option value="655">Eyeliner</option>
+                              <option value="656">Yataq ortusu</option>
+                              <option value="657">Yemek takimi</option>
+                              <option value="658">yagmurluk</option>
+                              <option value="659">Eşofman ustu</option>
+                              <option value="660">Fantazi Giyim</option>
+                              <option value="661">Buxur (Tütsü)</option>
+                              <option value="662">Şam</option>
+                              <option value="663">Hədiyəlik əşyalar</option>
+                              <option value="664">Əmzik</option>
+                              <option value="665">Krem</option>
+                              <option value="666">Alət seti</option>
+                              <option value="667">Sabun</option>
+                              <option value="668">Kamp ləvazimatları</option>
+                              <option value="669">Protein tozu</option>
+                              <option value="670">Paltar boyası</option>
+                              <option value="671">Maye</option>
+                              <option value="672">Plastmas sprey</option>
+                              <option value="673">Batareya</option>
+                              <option value="674">Dəmir sprey</option>
+                              <option value="675">Ev Tekstili</option></select
+                            ><span
+                              class="select2 select2-container select2-container--default"
+                              dir="ltr"
+                              data-select2-id="1"
+                              style="width: 100%"
+                              ><span class="selection"
+                                ><span
+                                  class="select2-selection select2-selection--multiple form-control"
+                                  role="combobox"
+                                  aria-haspopup="true"
+                                  aria-expanded="false"
+                                  tabindex="-1"
+                                  ><ul class="select2-selection__rendered">
+                                    <li
+                                      class="select2-search select2-search--inline"
+                                    >
+                                      <input
+                                        class="select2-search__field"
+                                        type="search"
+                                        tabindex="0"
+                                        autocomplete="off"
+                                        autocorrect="off"
+                                        autocapitalize="none"
+                                        spellcheck="false"
+                                        role="textbox"
+                                        aria-autocomplete="list"
+                                        placeholder="Kateqoriya seçin"
+                                        style="width: 244px"
+                                      />
+                                    </li></ul></span></span
+                              ><span
+                                class="dropdown-wrapper"
+                                aria-hidden="true"
+                              ></span
+                            ></span>
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div
+                            class="form-group field-parcel-invoice_price required"
+                          >
+                            <label
+                              class="control-label"
+                              for="parcel-invoice_price"
+                              >İnvoys qiyməti</label
+                            >
+                            <input
+                              type="text"
+                              id="parcel-invoice_price"
+                              class="form-control"
+                              name="Parcel[invoice_price]"
+                              aria-required="true"
+                            />
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group field-parcel-invoice_currency">
+                            <label
+                              class="control-label"
+                              for="parcel-invoice_currency"
+                              >İnvoys məzənnə</label
+                            >
+                            <select
+                              id="parcel-invoice_currency"
+                              class="form-control"
+                              name="Parcel[invoice_currency]"
+                            >
+                              <option value="TRY">TRY</option>
+                              <option value="USD">USD</option>
+                              <option value="EUR">EURO</option>
+                            </select>
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group field-parcel-comment">
+                            <textarea
+                              id="parcel-comment"
+                              class="form-control"
+                              name="Parcel[comment]"
+                              placeholder="Qeyd"
+                            ></textarea>
+
+                            <p class="help-block help-block-error"></p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-orange" type="submit">
+                        İnvoys yüklə
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <script type="text/template" id="qq-template-gallery">
+                <div class="qq-uploader-selector qq-uploader qq-gallery drag-drop" qq-drop-area-text="">
+                    <div class="qq-total-progress-bar-container-selector qq-total-progress-bar-container">
+                        <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-total-progress-bar-selector qq-progress-bar qq-total-progress-bar"></div>
+                    </div>
+                    <div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone>
+                        <span class="qq-upload-drop-area-text-selector"></span>
+                    </div>
+                    <p>Faylları sürüşdürərək çərçivənin içina atın</p>
+                    <div class="qq-upload-button-selector qq-upload-button">
+                        <div class="add-invoice-file">Invoice əlavə et</div>
+                    </div>
+                    <div class="declaration-file-text">
+                        <p>Maksimum 3 fayl (.pdf .docx .jpg .png) yükləmək imkanınız var</p>
+                    </div>
+                    <span class="qq-drop-processing-selector qq-drop-processing">
+                        <span>Processing dropped files...</span>
+                        <span class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"></span>
+                    </span>
+                    <ul class="qq-upload-list-selector qq-upload-list img-list" role="region" aria-live="polite" aria-relevant="additions removals">
+                        <li>
+                            <span role="status" class="qq-upload-status-text-selector qq-upload-status-text"></span>
+                            <div class="qq-progress-bar-container-selector qq-progress-bar-container">
+                                <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-progress-bar-selector qq-progress-bar"></div>
+                            </div>
+                            <span class="qq-upload-spinner-selector qq-upload-spinner"></span>
+                            <div class="announce-img-tool">
+                                <span class="delete-img qq-upload-cancel-selector"></span>
+                            </div>
+                            <div class="qq-thumbnail-wrapper announce-img">
+                                <img class="qq-thumbnail-selector" data-rotate="0" qq-max-size="130" qq-server-scale="0">
+                            </div>
+
+                        </li>
+                    </ul>
+
+                    <dialog class="qq-alert-dialog-selector">
+                        <div class="qq-dialog-message-selector"></div>
+                        <div class="qq-dialog-buttons">
+                            <button type="button" class="qq-cancel-button-selector">Bağla</button>
+                        </div>
+                    </dialog>
+
+                    <dialog class="qq-confirm-dialog-selector">
+                        <div class="qq-dialog-message-selector"></div>
+                        <div class="qq-dialog-buttons">
+                            <button type="button" class="qq-cancel-button-selector">No</button>
+                            <button type="button" class="qq-ok-button-selector">Yes</button>
+                        </div>
+                    </dialog>
+
+                    <dialog class="qq-prompt-dialog-selector">
+                        <div class="qq-dialog-message-selector"></div>
+                        <input type="text">
+                        <div class="qq-dialog-buttons">
+                            <button type="button" class="qq-cancel-button-selector">Cancel</button>
+                            <button type="button" class="qq-ok-button-selector">Ok</button>
+                        </div>
+                    </dialog>
+                </div>
+              </script>
+              <div class="announce-error d-none">
+                <div id="img-error" class="hidden">
+                  Invoice faylı seçilməmişdir.
+                </div>
+                <span class="file-error">Fayl tipi yanlışdır..</span>
+                <span class="file-count">İnvoys faylı seçilməyib.</span>
+                <span class="file-volume"
+                  >Bir şəklin ölçüsü maksimum 10mb ola bilər.</span
+                >
+                <span class="upload-error"
+                  >Xəta yarandı.Zəhmət olmasa yenidən cəhd edin.</span
+                >
+                <span class="file-not-selected"
+                  >Heç bir fayl seçilməmişdir.</span
+                >
+                <span class="file-size-error"
+                  >Şəklin ölçüsü minimum 100x100 olmalıdır</span
+                >
+
+                <span id="redirect" data-redirect="true"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
